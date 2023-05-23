@@ -1,0 +1,40 @@
+boolean variable
+String
+Number
+undefined
+null
+
+multiple variables 
+
+array can store multiple variables typeof objects 
+[] = array
+
+let sports [basket ball, rugby, football, soccer]
+console.log('my fav --> ${sports}');
+console.log('typeof --> ${sports}');
+
+/*created a variable named sports that have a string array
+
+object means to store any set of pairs 
+
+/*all keys need to be unique in an object 
+keys cannot have spaces
+key name must relate to the value
+
+curly braces {} = objects
+
+employee Number, name, number, department, title, salary
+
+['65673', 'oliver', '9124567387', 'shipping', 'manager', '50,000']
+
+emp num: 6485747
+
+name: oliver
+*/
+let employee1 {} created a variable named employee1 and had an empty value
+let emplyee2 {
+name : 'Queen Helen',
+id : 1234
+
+
+//using dot . operator we can get all the values of a particular key in the object

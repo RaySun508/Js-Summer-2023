@@ -1,0 +1,6 @@
+let name = 'john'; 
+
+let age = '27'; 
+
+console.log(typeOf age);
+
