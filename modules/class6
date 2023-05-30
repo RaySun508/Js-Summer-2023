@@ -1,0 +1,35 @@
+//if user does not input the separtor 
+//pop always removes the last value 
+
+//function shift removes the first value index0
+
+//To remove value of an array = pop shift 
+
+//To add values called push 
+//Push adds the new value to the end of array 
+//input: value to add 
+//return: the new value to add 
+
+//unshift - adds a new value at the end of the array 
+//whenever adding a value you will print the new length 
+
+sports = [GOLF, HocKey, MarathOn];
+digits = [45, 76, 87, 35, 23];
+
+console.log('\nfunction - push(');
+console.log(`sports --> ${sports}`);
+console.log(`digits --> ${digits}`);
+
+let sportsNewLength1 = spots.push('badmitton');
+console.log(`new length after push()`) = 
+
+console.log('\njoin(');
+console.log(`sports --> ${sports}`);
+let sportsJoin = sports.join();
+
+
+//Practive 
+//convert the given 4-word sentence into TitleCase
+
+
+

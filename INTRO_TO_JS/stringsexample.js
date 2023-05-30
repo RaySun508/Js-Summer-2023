@@ -67,12 +67,12 @@ console.log('myString --> +${myString_afterTrim}+');
 
 //to find the character present at any given index
 
-function: charAt
+//function: charAt
 input: indexNum
-returns a string
+//returns a string
 
 let charAt2 = sentence.charAt(2);
-console.log(char at index-2);
+//console.log(char at index-2);
 
 //a negative number is not valid empty string / a correct 
 
@@ -86,3 +86,61 @@ firstIndexOf
 lastIndexOf
 
 //toReplace
+
+
+//*String
+//String-Concept-1.3s
+//length (property)
+//toUpperCase()
+//toLowerCase()
+// String-Concept-2.js
+//startsWith()
+//endsWith()
+//includes ()
+//concat()
+//trin()
+//charat()
+//index0f ()
+//LastIndexof()
+//replace()
+//localeCompare()
+//String-Concept-3.js
+//substring(), slice(), substri)
+//•split())
+//let sentence
+//'BreAkInG news, laTesT news':
+// 7145pm
+
+/**To estract a portion from a String
+ * function: substring() / slice() / substr()
+ * 
+ * 'BreaKIng news, laTest neWs'
+ * 
+ * to extract a part of a given string using index values 
+ * use 
+ * funtion: substring()
+ * input: startIndex, endIndex
+ * return: function returns the portion of String strating 
+ * from the startIndex up to the endIndex
+ * imput: startIndex
+ * 
+ * input: both indexes where to start and where to stop
+ * 
+ * substring copies the original value and extracts the portion from the 
+ * copied value depending upon the given index 
+ * and does not change the original string value 
+ * 
+ * let sentence = 
+ */
+
+
+let sentence = 'BreaKIng news, laTest neWs';
+
+let subString_2_5 = sentem=nce.subString(2, 5);
+
+
+let subString_1_10 = sentence.substring(1, 10);
+
+let subString_4 = sentence.substring(4)
+
+//if ending index is invalid you will get 

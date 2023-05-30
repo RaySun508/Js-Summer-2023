@@ -1,0 +1,94 @@
+//in a given string find the index of the first occurrence of "he" 
+//note please ignore the case 
+
+
+let inputString = 'CompreheNSIVe UP-to-DATE neWs CoverAgE, aggRegateD frOM soURCeS alL oVeR tHE wORld by GOOgle NeWs.';
+let searchString = 'he';
+let index = inputString.toLowerCase().indexOf(searchString);
+
+console.log(index); 
+let input_toLowerCase
+let pattern_toLowerCase = pattern.toLowerCase
+
+//Verify if two given strings are equal to eachother ASCII number when ignoring casees 
+let str1 = 'Come to my house for a PARTY '; 
+let str2 = 'come to my house for a party'; 
+
+//if the two strings are equal print true/or false 
+
+let str1 = 'Come to my house for a PARTY ';
+let str2 = 'come to my house for a party';
+
+if (str1.toLowerCase() === str2.toLowerCase()) {
+  console.log("The strings are equal, ignoring case.");
+} else {
+  console.log("The strings are not equal, ignoring case.");
+}
+
+//1. converting str1 and str2 into lowercase
+let str1_L = sr1.toLowerCase();
+let str2_L = str2.toLowerCase();
+//2. str1 and str2 using localCompare prints boolean
+let localCompareResult = str1.localeCompare(str2_L);
+//result of step two if it is equal to 0
+let isEqual = localCompareResult === 0
+//print the result of number 3 
+
+console.log(`str1 --> ${str1}`);
+
+
+//print answer as true/fales / verify 'oNe" present only once print true ; otherwise print false
+
+let inputStr = '';
+//1. Convert inputStr 
+
+let inputStr = 'one two three one four five';
+let count = 0;
+
+// Split the input string into an array of words
+let words = inputStr.split(' ');
+
+// Iterate through each word in the array
+for (let i = 0; i < words.length; i++) {
+  // Check if the current word is equal to 'oNe' (ignoring case)
+  if (words[i].toLowerCase() === 'one') {
+    count++;
+    
+    // If 'oNe' is found more than once, exit the loop
+    if (count > 1) {
+      break;
+    }
+  }
+}
+
+// Check the count of occurrences of 'oNe'
+if (count === 1) {
+  console.log(true);
+} else {
+  console.log(false);
+}
+
+//use indexOf to find the first occurence of the first used One
+//1. vonvert str into lowecase 
+let patternstr = 'oNe';
+let inputStr_L = inputStr.toLocaleLowerCase();
+let patternstr+L = patternStr.toLowerCase();
+//2. find index of and convert to lowercase 
+
+/**
+ * Print ans as true/false
+ * 
+ * Verify "oNe" appears only once in the given sentence (ignoring the cases)
+ * if the "oNe" present only once, print true ; otherwise print false.
+ * 
+ */
+let inputStr = '';
+
+//To split a given string into multiple string values 
+/**function: split()
+input: pattern from where to cut the string 
+
+return: array of string
+If the given patter EXACTLY found in the string, fucntion is going to split
+
+splitBy is the funtion to sliplt by a number or character
